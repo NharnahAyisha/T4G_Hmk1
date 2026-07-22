@@ -6,31 +6,33 @@ let email = prompt("Enter your email:"); //takes input from the user
 alert(`Hello ${username}, you are ${age} years old and we will keep in touch via ${email}`);
 
 let myName = "Ayishetu Dedei Armah";
-console.log(myName); 
+console.log("Name:", myName);
 
 let myAge = 26;
-console.log(myAge);
+console.log("Age:", myAge);
 
 let addition = 10 + 5;
-console.log(addition);
+console.log("Addition:", addition);
 
 let subtraction = 10 - 5;
-console.log(subtraction);
+console.log("Subtraction:", subtraction);
 
 let division = 10 / 5;
-console.log(division);
+console.log("Division:", division);
 
 let multiplication = 10 * 5;
-console.log(multiplication);
+console.log("Multiplication:", multiplication);
 
 let remainder = 15 % 4;
-console.log(remainder);
+console.log("Remainder:", remainder);
 
-let isStudent = true;
-console.log(isStudent);
+let myPage = true;
+console.log("My Page:", myPage);
 
-let num = 50;
-console.log(typeof num);
+let vitaValue = 50;
+console.log("Vita Value:", vitaValue);
+console.log("Type of Vita Value:", typeof vitaValue);
 
-let text = "Frontend Development";
-console.log(typeof text);
+let healthValue = "VitaBridge";
+console.log("Health Value:", healthValue);
+console.log("Type of Health Value:", typeof healthValue);
